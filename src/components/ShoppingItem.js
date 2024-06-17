@@ -16,6 +16,8 @@ const ShoppingItem = ({ id, name, images, size, price, additionalInfo }) => {
             className="shopping-item-img"
             src={image}
             alt={name}
+            width="100%"
+            height="100%"
           />
         ))}
       </div>
